@@ -13,9 +13,6 @@ public class DifferenceArraysArrayLists {
         // Accessing element using index
         System.out.println("Number at index 1: " + numbers[1]); // Output 9
 
-        // Trying to add another element - throws error
-        // numbers[5] = 30; // IndexOutOfBoundsException
-
         // Iterating over array
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("Number " + (i + 1) + ": " + numbers[i]);
@@ -44,6 +41,7 @@ public class DifferenceArraysArrayLists {
             System.out.println("Name: " + iterator.next());
         }
 
+        System.out.println();
         // Prints size of Array and ArrayList
         System.out.println("Array size: " + numbers.length); // Fixed size
         System.out.println("ArrayList size: " + names.size()); // Dynamic size
